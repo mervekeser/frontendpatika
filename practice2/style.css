@@ -49,15 +49,15 @@
     width: 7px;
   }
   
-  .close {
+  ul li span {
     position: absolute;
     right: 0;
     top: 0;
     padding: 12px 16px 12px 16px;
   }
   
-  .close:hover {
-    background-color: #f78501;
+  ul li span:hover {
+    background-color: #555;
     color: white;
   
   }
