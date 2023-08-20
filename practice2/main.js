@@ -5,11 +5,7 @@ const list = document.getElementById("list");
 
 function newElement(){
     
-    if(task.value === ''){
-        $('#liveToastt').toast({delay:3000});
-        $('#liveToastt').toast("show");
-    }
-    else if(task.value === '  '){
+    if(task.value.trim() === ''){
         $('#liveToastt').toast({delay:3000});
         $('#liveToastt').toast("show");
     }
