@@ -9,14 +9,14 @@ input.searche {
   max-width: 500px;
   background-color: #eef3f8;
   border: 0;
+  background-image: url(/linkedn/search-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 14px;
 }
 
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/search-solid.svg);
-  background-repeat: no-repeat;
-  background-size: 8%;
 }
 
 .body {
@@ -66,12 +66,13 @@ i:hover {
 input.content {
   border-radius: 40px;
   height: 45px;
+  
 }
 input.content::placeholder {
   font-weight: bolder;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url(/edit-regular\ \(1\).svg);
+  background-image: url(/linkedn/edit-regular\ \(1\).svg);
   background-repeat: no-repeat;
   background-size: auto;
 }

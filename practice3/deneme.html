@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .container{
+            display: grid;
+            /*grid-template-columns: 150px 200px 150px;*/
+            /* grid-template-columns: 150px auto auto; */
+            grid-template-columns: repeat(3, 1fr);
+            /* grid-template-columns: 1fr 2fr 1fr; */
+            /* grid-template-rows: 1fr 2fr 2fr; */
+            background-color: brown;
+            padding: 20px;
+            gap: 10px;
+            
+        }
+        .item{
+            background-color: goldenrod;
+            padding: 15px;
+            color: #fff;
+            font-size: 18px;
+
+        }
+    </style>
+</head>
+<body>
+    <!--grid container-->
+        <div class="container">
+            <!--grid items: div, img, p-->
+            <div class="item">Grid Eleman 1</div>
+            <div class="item">Grid Eleman 2</div>
+            <div class="item">Grid Eleman 3</div>
+            <div class="item">Grid Eleman 4</div>
+            <div class="item">Grid Eleman 5</div>
+            <div class="item">Grid Eleman 6</div>
+            <div class="item">Grid Eleman 7</div>
+            <div class="item">Grid Eleman 8</div>
+            <div class="item">Grid Eleman 9</div>
+
+        </div>
+</body>
+</html>
